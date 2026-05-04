@@ -1,73 +1,32 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iNetzTechnik</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netz Technik</title>
 
-  <style>
-    /* Osnovni stil za telo stranice */
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      background: url('logo.png') no-repeat center center fixed;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      overflow: hidden;
-    }
+<style>
+body{
+margin:0;
+padding:0;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
 
-    /* Animacija za tekst */
-    .animated-text {
-      font-size: 3em;
-      font-weight: bold;
-      color: white;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      animation: fadeInUp 3s ease-in-out infinite;
-      opacity: 0;
-    }
+img{
+max-width:100%;
+max-height:100%;
+object-fit:contain;
+}
+</style>
 
-    /* Keyframes animacija za efekat na tekst */
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(50px);
-      }
-      50% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-50px);
-      }
-    }
-
-    /* Stil za logo */
-    img {
-      max-width: 70%;
-      height: auto;
-      margin-bottom: 30px;
-      opacity: 0.8;
-    }
-
-  </style>
 </head>
 <body>
 
-  <!-- Logo -->
-  <img src="logo.png" alt="Netz Technik Logo">
-
-  <!-- Animirani tekst -->
-  <div class="animated-text">
-    Webseite im Aufbau
-  </div>
+<img src="logo.png">
 
 </body>
 </html>
